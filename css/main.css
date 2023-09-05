@@ -20,7 +20,7 @@ body *{
 /* 기본 초기화 */
 html, body, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, p, figure, figcaption
 {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -30,17 +30,19 @@ ul, ol {
 }
 
 
-
 /* 공통레이아웃 클래스 */
 /* 속박스 */
-.inbox{
+#inbox{
     max-width: 800px;
     margin: 0 auto;
 }
 
+/************ 1. 인트로  ******************/
 /* 인트로 사진 */
 .pt_intro img{
+    display: block;
     width: 100%;
+    margin: 0 auto;
 }
 
 /* 인트로 글귀 */
@@ -48,13 +50,46 @@ ul, ol {
     position: absolute;
     color: #1c3453;
     text-align: center;
-    top: 12dvh;
+    top: 12vh;
     left: 50%;
     font-size: 1.8rem;
     font-family: 'Diphylleia', serif;
     font-weight: normal;
-
 }
+.info {
+    position: absolute;
+    color: #1c3453;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 1.8rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: normal;
+}
+
+
+
+/************ 2. 글귀  ******************/
+/* 콘텐츠 패딩 */
+.main_subject {
+    padding: 8vh 1vw;
+    /* background-color: beige; */
+    text-align: center;
+}
+
+.main_subject .tit{
+    font-size: 3rem;
+    font-family: 'Diphylleia', serif;
+    padding-bottom: 20px;
+}
+
+.main_subject p{
+    font-size: 2rem;
+    font-family: 'Diphylleia', serif;
+    line-height: 1.8em;
+}
+
+
 
 
 
