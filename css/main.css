@@ -1,10 +1,12 @@
 @charset "utf-8";
 
+
+
 /* 전체 글자크기 적용 */
 html{
     font-size: 10px;
     /* rem 단위를 위한 계산 편의성 셋팅 + 전체글자크기 제어 */
-    background-color: #000;
+    background-color: #fff;
 }
 
 /* 공사중표시 */
@@ -41,7 +43,7 @@ ul, ol {
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #2c2c2c;
     padding: 0 10px;
 }
 
