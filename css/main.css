@@ -1,9 +1,14 @@
 @charset "utf-8";
 
 /* 웹폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/* font-family: 'Diphylleia', serif;*/
+
 
 /* 전체 글자크기 적용 */
 html{
@@ -53,7 +58,7 @@ ul, ol {
     top: 12vh;
     left: 50%;
     font-size: 1.8rem;
-    font-family: 'Diphylleia', serif;
+    font-family: 'MaruBuri-Regular';
     font-weight: normal;
 }
 .info {
@@ -63,7 +68,7 @@ ul, ol {
     top: 50%;
     left: 50%;
     font-size: 1.8rem;
-    font-family: 'Diphylleia', serif;
+    font-family: 'MaruBuri-Regular';
     font-weight: normal;
 }
 
@@ -79,13 +84,13 @@ ul, ol {
 
 .main_subject .tit{
     font-size: 3rem;
-    font-family: 'Diphylleia', serif;
+    font-family: 'MaruBuri-Regular';
     padding-bottom: 20px;
 }
 
 .main_subject p{
     font-size: 2rem;
-    font-family: 'Diphylleia', serif;
+    font-family: 'MaruBuri-Regular';
     line-height: 1.8em;
 }
 
