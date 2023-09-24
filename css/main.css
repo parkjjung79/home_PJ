@@ -51,27 +51,51 @@ ul, ol {
     margin: 0 auto;
 }
 
-/* 인트로 글귀 */
-.txt_box h1{
-    padding-bottom: 10px;
-}
-
+/* 인트로 박스 */
 .txt_box {
+    display: flex;
     position: absolute;
     color: #333333;
     text-align: center;
     top: 10vh;
-    left: 50%;
+    left: 41%;
     font-size: 1.8rem;
     font-family: 'MaruBuri-Regular';
     font-weight: normal;
 }
+/* 김동훈 박정현 공통 txt */
+.txt_box h1{
+    padding-bottom: 10px;
+}
+/* 김동훈 txt */
+.txt01{
+    padding: 0 35px 0 0;
+}
+/* 박정현 txt */
+.txt02{
+    padding: 50px 0 0 35px;
+}
+
+
+/* 세로줄 */
+.border_left{
+    border-left: 1px solid #848484;
+    height: 150px;
+    margin-top: 30px;
+    
+}
+
+/* 날짜시간장소 */
+.main_subject{
+    position: relative;
+    background-color: #f1f1f1;
+}
 .info {
-    position: absolute;
+    /* position: absolute; */
     color: #333333;
-    text-align: center;
+    text-align: left;
     top: 25%;
-    left: 36%;
+    left: 0%;
     font-size: 2.1rem;
     font-family: 'MaruBuri-Regular';
     font-weight: normal;
@@ -80,12 +104,12 @@ ul, ol {
 
 
 
-/************ 2. 글귀  ******************/
-/* 콘텐츠 패딩 */
+/************ 2. 정보  ******************/
+/* 콘텐츠 큰 틀 */
 .main_subject {
-    padding: 8vh 1vw;
+    padding: 8vh 4vw;
     /* background-color: beige; */
-    text-align: center;
+    text-align: left;
 }
 
 .main_subject .tit{
@@ -100,8 +124,25 @@ ul, ol {
     line-height: 1.8em;
 }
 
-
-
+/************ 3. 인사말  ******************/
+/* 인사말 큰 틀 */
+.greeting {
+    position: relative;
+    padding: 43vh 4vw;
+    text-align: left;
+    font-family: 'MaruBuri-Regular';
+    font-size: 2rem;
+    line-height: 1.8em;
+    background: url(../images/photo2_greeting.jpg) no-repeat center/cover;
+}
+/* 인사말박스 */
+.greeting-box{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 4vw 8vh;
+    backdrop-filter: blur(3px);
+}
 
 
 

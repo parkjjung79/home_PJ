@@ -17,9 +17,9 @@
 /* 최대 800px 이하 시작 */
 @media screen and (max-width: 800px) {
 
-  /* 인트로 글귀 */
+/* 인트로 글귀 */
 .txt_box {
-  top: 4vh;
+  top: 6vh;
   font-size: 1rem;
   }
 .txt_box h1{
@@ -30,6 +30,15 @@
     top: 22%;
     font-size: 1.8rem;
     }
+
+/* 인사말박스 */
+.greeting-box{
+  /* width: 100%; */
+  padding: 10vw 2vh;
+}
+.greeting-box p{
+  font-size: 1.8rem;
+}
   
 
 }
