@@ -132,7 +132,7 @@ ul, ol {
     font-family: 'MaruBuri-Regular';
     font-size: 2rem;
     line-height: 1.8em;
-    background: url(../images/photo2_greeting.jpg) no-repeat center/cover;
+    background: url(../images/photo2_greeting.jpg) no-repeat center/auto 100%;
 }
 /* 인사말박스 */
 .greeting-box{

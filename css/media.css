@@ -37,8 +37,12 @@
   padding: 10vw 2vh;
 }
 .greeting-box p{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color:#fff;
+}
+
+.add-m{
+  display: inline;
 }
   
 
