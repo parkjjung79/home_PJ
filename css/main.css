@@ -134,7 +134,7 @@ ul, ol {
 }
 /* 인사말 큰 틀 */
 .greeting {
-    /* position: relative; */
+    position: relative;
     /* padding: 64vh 4vw; */
     text-align: left;
     font-family: 'MaruBuri-Regular';
@@ -147,7 +147,7 @@ ul, ol {
 .greeting-box{
     position: absolute;
     width: 100%;
-    top:79%;
+    top:56.9%;
     left: 0;
     padding: 4vw 8vh;
     backdrop-filter: blur(3px);
@@ -162,43 +162,28 @@ ul, ol {
 }
 
 
-
-/* 12 그리드 클래스 : 
-        한줄에 합이 12컬럼이 되도록 셋팅 */
-.col-1 {
-    width: 8.33%;
+/************ 4. 사진첩  ******************/
+.photo{
+    padding: 8vh 1vw;
+    background-color: #f1f1f1;
 }
-.col-2 {
-    width: 16.66%;
+.photo .tit{
+    font-size: 3rem;
+    font-family: 'MaruBuri-Regular';
+    padding-bottom: 20px;
+    text-align: center;
+    
 }
-.col-3 {
-    width: 25%;
+.gallery{
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: min(1vw, 10px);
+    grid-row-gap: min(1.5vw, 15px);
 }
-.col-4 {
-    width: 33.33%;
-}
-.col-5 {
-    width: 41.66%;
-}
-.col-6 {
-    width: 50%;
-}
-.col-7 {
-    width: 58.33%;
-}
-.col-8 {
-    width: 66.66%;
-}
-.col-9 {
-    width: 75%;
-}
-.col-10 {
-    width: 83.33%;
-}
-.col-11 {
-    width: 91.66%;
-}
-.col-12 {
+/* 썸네일 */
+.gallery div a img{
+    aspect-ratio: 1;
     width: 100%;
 }
-/* 참고: https://www.w3schools.com/css/css_rwd_grid.asp */
+/*  */
