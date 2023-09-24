@@ -19,7 +19,7 @@ html{
 
 /* 공사중표시 */
 body *{
-    outline : 1px dashed #444;
+    /* outline : 1px dashed #444; */
 }
 
 /* 기본 초기화 */
@@ -38,6 +38,7 @@ ul, ol {
 /* 공통레이아웃 클래스 */
 /* 속박스 */
 #inbox{
+    position: relative;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -51,11 +52,15 @@ ul, ol {
 }
 
 /* 인트로 글귀 */
+.txt_box h1{
+    padding-bottom: 10px;
+}
+
 .txt_box {
     position: absolute;
-    color: #1c3453;
+    color: #333333;
     text-align: center;
-    top: 12vh;
+    top: 10vh;
     left: 50%;
     font-size: 1.8rem;
     font-family: 'MaruBuri-Regular';
@@ -63,13 +68,14 @@ ul, ol {
 }
 .info {
     position: absolute;
-    color: #1c3453;
+    color: #333333;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    font-size: 1.8rem;
+    top: 25%;
+    left: 36%;
+    font-size: 2.1rem;
     font-family: 'MaruBuri-Regular';
     font-weight: normal;
+    line-height: 1.8;
 }
 
 
