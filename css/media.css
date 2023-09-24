@@ -19,8 +19,17 @@
 
   /* 인트로 글귀 */
 .txt_box {
+  top: 7vh;
   font-size: 1rem;
   }
+.txt_box h1{
+  padding-bottom: 2px;
+  }
+
+.info {
+    top: 22%;
+    font-size: 0.5rem;
+    }
   
 
 }
