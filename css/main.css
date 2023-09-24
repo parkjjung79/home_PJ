@@ -43,6 +43,8 @@ ul, ol {
     margin: 0 auto;
 }
 
+
+
 /************ 1. 인트로  ******************/
 /* 인트로 사진 */
 .pt_intro img{
@@ -124,20 +126,28 @@ ul, ol {
 }
 
 /************ 3. 인사말  ******************/
+.greeting img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
 /* 인사말 큰 틀 */
 .greeting {
-    position: relative;
-    padding: 64vh 4vw;
+    /* position: relative; */
+    /* padding: 64vh 4vw; */
     text-align: left;
     font-family: 'MaruBuri-Regular';
     font-size: 2rem;
     line-height: 1.8em;
-    background: url(../images/photo2_greeting.jpg) no-repeat center/auto 100%;
+    background: url(../images/photo2_greeting.jpg) no-repeat center/cover;
+    background-size: cover;
 }
 /* 인사말박스 */
 .greeting-box{
     position: absolute;
     width: 100%;
+    top:79%;
     left: 0;
     padding: 4vw 8vh;
     backdrop-filter: blur(3px);
@@ -147,6 +157,7 @@ ul, ol {
 .greeting-box::after{
     content: '';
     display: block;
+    width: 100%;
     background-color: #ffffff6c;
 }
 
