@@ -108,7 +108,6 @@ ul, ol {
 /* 콘텐츠 큰 틀 */
 .main_subject {
     padding: 8vh 4vw;
-    /* background-color: beige; */
     text-align: left;
 }
 
@@ -142,6 +141,7 @@ ul, ol {
     left: 0;
     padding: 4vw 8vh;
     backdrop-filter: blur(3px);
+    box-sizing: border-box;
 }
 
 

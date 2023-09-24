@@ -33,11 +33,12 @@
 
 /* 인사말박스 */
 .greeting-box{
-  /* width: 100%; */
+  left: 0%;
   padding: 10vw 2vh;
 }
 .greeting-box p{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color:#fff;
 }
   
 
