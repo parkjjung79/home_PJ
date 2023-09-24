@@ -127,7 +127,7 @@ ul, ol {
 /* 인사말 큰 틀 */
 .greeting {
     position: relative;
-    padding: 43vh 4vw;
+    padding: 64vh 4vw;
     text-align: left;
     font-family: 'MaruBuri-Regular';
     font-size: 2rem;
@@ -142,6 +142,12 @@ ul, ol {
     padding: 4vw 8vh;
     backdrop-filter: blur(3px);
     box-sizing: border-box;
+}
+
+.greeting-box::after{
+    content: '';
+    display: block;
+    background-color: #ffffff6c;
 }
 
 
