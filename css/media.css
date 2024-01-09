@@ -17,10 +17,16 @@
 /* 최대 800px 이하 시작 */
 @media screen and (max-width: 800px) {
 
+.inbox.pt_intro {
+    position: relative;
+}
+
 /* 인트로 글귀 */
 .txt_box {
-  top: 6vh;
+  position: relative;
+  top: -54vh;
   font-size: 1rem;
+  transform: translateX(-14px); 
   }
 .txt_box h1{
   padding-bottom: 2px;
